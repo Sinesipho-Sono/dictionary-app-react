@@ -9,7 +9,23 @@ function App() {
         </main>
         <footer className="text-center m-5">
           <small>
-            This website was coded by Sinesipho Sono and it is open-sourced
+            This website was coded by{" "}
+            <a
+              href="https://github.com/Sinesipho-Sono"
+              rel="no referrer"
+              target="_blank"
+            >
+              Sinesipho Sono
+            </a>{" "}
+            and it is{" "}
+            <a
+              href="https://github.com/Sinesipho-Sono/dictionary-app-react"
+              rel="no referrer"
+              target="_blank"
+            >
+              {" "}
+              open-sourced
+            </a>
           </small>
         </footer>
       </div>
