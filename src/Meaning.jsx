@@ -1,5 +1,6 @@
 import React from "react";
 import Synonyms from "./Synonyms";
+import "./Meaning.css";
 export default function Meaning(props) {
   let { partOfSpeech, definitions } = props.meaning;
 
@@ -8,18 +9,10 @@ export default function Meaning(props) {
       <h4>{partOfSpeech}</h4>
       {definitions.slice(0, 3).map((definition, index) => (
         <div key={index}>
-          <p>
-            1. <strong>Definition:</strong> {definition.definition}
-          </p>
-          {definition.example && (
-            <p>
-              2.
-              <em>
-                {" "}
-                <strong>Example:</strong> {definition.example}
-              </em>
-            </p>
-          )}
+          <div className="definition">{definition.definition}</div>
+          <div className="example">
+            {definition.example && <em>'' {definition.example}"</em>}
+          </div>
         </div>
       ))}
 

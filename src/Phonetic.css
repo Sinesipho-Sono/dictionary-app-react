@@ -1,0 +1,15 @@
+.Phonetic {
+  display: flex;
+}
+
+.Phonetic-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.Phonetic p {
+  margin: 0;
+  font-weight: 700;
+  opacity: 0.4;
+}

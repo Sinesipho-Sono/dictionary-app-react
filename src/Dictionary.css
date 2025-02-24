@@ -1,0 +1,44 @@
+.Dictionary section {
+  background: white;
+  padding: 30px;
+  border-radius: 6px;
+  box-shadow: 0 0 5px 1px#a9a6ad;
+  margin: 20px 0;
+}
+.header {
+  background: #2a2438;
+  padding: 30px;
+  box-shadow: 0 0 5px 1px#a9a6ad;
+  margin: 20px 0;
+  color: white;
+}
+
+.Dictionary h1 {
+  font-family: "Georgia", Times, serif;
+  font-weight: 800;
+  font-style: italic;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 2px;
+}
+.Dictionary .header-h2 {
+  font-family: "Georgia", Times, serif;
+  font-weight: 500;
+  font-style: italic;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 20px;
+}
+.Dictionary input {
+  width: 100%;
+  padding: 6px 10px;
+  border: 1px solid #d3cfcf;
+  border-radius: 6px;
+  color: #848088;
+}
+
+.Dictionary .hint {
+  font-size: 11px;
+  margin-top: 5px;
+  color: #a7a1a1;
+}

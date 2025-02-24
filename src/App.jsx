@@ -4,9 +4,8 @@ function App() {
   return (
     <div className="App ">
       <div className="container">
-        <h1 className="text-center">Dictionary App</h1>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="airport" />
         </main>
         <footer className="text-center m-5">
           <small>
